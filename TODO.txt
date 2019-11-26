@@ -1,0 +1,10 @@
+Problems to solve:
+- last word from vocab is missing in cooc -> investigate teachers code in cooc.py
+- tweets containing no word in vocab get represented with NaN weights, that are not supported by classifier (not a problem to drop in train, but missing prediction if it occurs in test)
+
+Optimization to try:
+- Try different kind of classifier, different parameters, etc.
+- Custom tweet representation (cf Sevan's notes for ideas)
+
+Organize notebook:
+- clean up my mess :D
