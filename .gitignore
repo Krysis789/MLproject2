@@ -4,6 +4,5 @@ Datasets/
 # Jupyter Notebook's saves
 .ipynb_checkpoints/
 
-Submissions/
 
 __pycache__
