@@ -1,4 +1,5 @@
 Problems to solve:
+
 - last word from vocab is missing in cooc -> investigate teachers code in cooc.py
 - tweets containing no word in vocab get represented with NaN weights, that are not supported by classifier (not a problem to drop in train, but missing prediction if it occurs in test)
 
@@ -8,3 +9,17 @@ Optimization to try:
 
 Organize notebook:
 - clean up my mess :D
+
+
+
+Ideas to improve the predictions : 
+
+- Negations (puting "not" with the following word to form one word for instance)
+
+- Plurals (separate words or not ??)
+
+- Vocab/Grammar mistakes + letter repetitions ("I loooooove chocolate" = "I love chocolate")
+
+- Get rid of some particular words (list of stop words, for instance "a", "the",... ??)
+
+- Punctuation ???
