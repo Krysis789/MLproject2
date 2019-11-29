@@ -27,14 +27,14 @@ def main():
                 counter += 1
 
                 if counter % 200000 == 0:
-                print(len(data))
-                cooc = coo_matrix((data, (row, col)))
-                print("summing duplicates (this can take a while)")
-                cooc.sum_duplicates()
-                data=list(cooc.data)
-                row=list(cooc.row)
-                col=list(cooc.col)
-                print(len(data))
+	                print(len(data))
+	                cooc = coo_matrix((data, (row, col)))
+	                print("summing duplicates (this can take a while)")
+	                cooc.sum_duplicates()
+	                data=list(cooc.data)
+	                row=list(cooc.row)
+	                col=list(cooc.col)
+	                print(len(data))
 
     print(len(data))
     cooc = coo_matrix((data, (row, col)))
