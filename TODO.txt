@@ -5,21 +5,15 @@ Problems to solve:
 
 Optimization to try:
 - Try different kind of classifier, different parameters, etc.
-- Custom tweet representation (cf Sevan's notes for ideas)
+- Optimize their parameters
 
-Organize notebook:
-- clean up my mess :D
-
-
-
-Ideas to improve the predictions : 
-
-- Negations (puting "not" with the following word to form one word for instance)
-
-- Plurals (separate words or not ??)
-
-- Vocab/Grammar mistakes + letter repetitions ("I loooooove chocolate" = "I love chocolate")
-
-- Get rid of some particular words (list of stop words, for instance "a", "the",... ??)
-
-- Punctuation ???
+- Custom tweet representation
+	- Negations (puting "not" with the following word to form one word for instance)
+	- Plurals (separate words or not ??)
+	- Vocab/Grammar mistakes + letter repetitions ("I loooooove chocolate" = "I love chocolate")
+	- tokenizer specialised in social media language
+	- Get rid of some particular words (list of stop words, for instance "a", "the",... ??)
+	- Punctuation ???
+	- Change the minimum number of occurance required to be kept in vocab
+	- Remove duplicate tweets in train
+	- Include test data for creation of vocab and cooc
