@@ -1,8 +1,11 @@
-# data/ folder
+# data/ folder and processed data files
 Datasets/
+Processed_data/
+
 
 # Jupyter Notebook's saves
 .ipynb_checkpoints/
+
 
 
 __pycache__
