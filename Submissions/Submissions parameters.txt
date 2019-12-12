@@ -1,0 +1,29 @@
+ID 25750
+Accuracy : 0.604
+F1 Score : 0.687
+submission.csv
+Duplicates allowed, small dataset, unknown random seed
+
+ID 25867
+Accuracy : 0.565
+F1 Score : 0.652
+submission_full.csv
+Duplicates allowed, full dataset, unknown random seed
+
+ID 27180
+Accuracy : 0.570
+F1 Score : 0.625
+submission2019_12_07_10_16_28.csv
+No Duplicates, small dataset, random seed 123
+
+ID 27186
+Accuracy : 0.574
+F1 Score : 0.590
+submission2019_12_07_11_07_31.csv
+Duplicates allowed, small dataset, random seed 123
+
+ID : 27192
+Accuracy : 0.571
+F1 Score : 0.630
+submission2019_12_07_11_41_13.csv
+Duplicates allowed, small dataset, random seed 42
