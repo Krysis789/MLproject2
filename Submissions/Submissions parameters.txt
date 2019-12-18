@@ -27,3 +27,15 @@ Accuracy : 0.571
 F1 Score : 0.630
 submission2019_12_07_11_41_13.csv
 Duplicates allowed, small dataset, random seed 42
+
+ID : 28572
+Accuracy : 0.809
+F1 Score : 0.823
+//
+Duplicates allowed, 60% of the full dataset, Neural Network classification
+
+ID : 29003
+Accuracy : 0.577
+F1 Score : 0.625
+submission2019_12_14_13_58_33
+No duplicates, small dataset, random seed 123, Spellchecking
